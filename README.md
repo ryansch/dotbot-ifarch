@@ -38,3 +38,5 @@ Acceptable values of `<arch>` in the `if<arch>` directive are shown below:
 - `arm64`
 - `armv7l`
 - `x86_64`
+
+NOTE: Issues/PRs will be accepted to help fill out this list.
