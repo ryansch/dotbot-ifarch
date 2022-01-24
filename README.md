@@ -17,16 +17,16 @@ For example:
 
 ```yaml
 - ifaarch64:
-    - apt:
-        - ranger
+    - shell:
+        - echo Raspberry pi?
 
 - ifarm64:
-    - pacman:
-        - ranger
+    - shell:
+        - echo Apple Silicon?
 
 - ifx86_64:
-    - brew:
-        - ranger
+    - shell:
+        - echo Intel/AMD
 ```
 
 ### Details
